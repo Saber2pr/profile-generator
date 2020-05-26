@@ -107,7 +107,7 @@
                 }
               }
             },
-            "required": ["name", "href", "describes"]
+            "required": ["name", "describes"]
           }
         }
       }
@@ -157,7 +157,7 @@
                 }
               }
             },
-            "required": ["name", "href", "describes"]
+            "required": ["name", "describes"]
           }
         }
       }

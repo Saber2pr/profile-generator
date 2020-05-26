@@ -1,5 +1,9 @@
 # Profile Generator
 
+```bash
+git clone https://github.com/Saber2pr/profile-generator.git --depth=1
+```
+
 参考数据格式
 
 ```ts
@@ -7,7 +11,7 @@ interface Data {
   margin?: string
 
   profile: {
-    imgSrc: string
+    imgSrc?: string
     name: string
     target: string
     birth: string
@@ -23,7 +27,7 @@ interface Data {
     title: string
     works: Array<{
       name: string
-      href: string
+      href?: string
       describes: Array<{
         content: string
         keywords?: Array<{ word: string; style: string }>
@@ -35,6 +39,7 @@ interface Data {
     title: string
     works: Array<{
       name: string
+      href?: string
       describes: Array<{
         content: string
         keywords?: Array<{ word: string; style: string }>
