@@ -24,5 +24,5 @@ export const FileUpload: React.FC<FileUploadProps> = ({
     addUploadListener(({ content }) => onUploaded(String(content)))
   )
 
-  return <input {...props} type="file" onChange={read} />
+  return <input accept=".json" {...props} type="file" onChange={read} />
 }
