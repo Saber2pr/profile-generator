@@ -1,8 +1,3 @@
-# Profile Generator
-
-参考数据格式
-
-```ts
 interface Data {
   margin?: string
 
@@ -61,4 +56,3 @@ interface Data {
     }>
   }
 }
-```
