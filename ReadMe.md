@@ -67,3 +67,5 @@ interface Data {
   }
 }
 ```
+
+[示例>>](https://saber2pr.top/profile-generator/Profile.pdf)
