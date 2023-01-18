@@ -29,17 +29,17 @@ export const WorksView = ({ title, works, icon }: WorksView) => (
           <a href={href}>
             <strong>{name}</strong>
           </a>
-          <ul>
+          <ol>
             {describes.map(({ content, keywords }) => (
               <li key={content}>
                 {keywords ? (
-                  <Highlight keywords={keywords}>{content}</Highlight>
+                  <Highlight keywords={keywords} style={{lineHeight: 1.5}}>{content}</Highlight>
                 ) : (
-                  <p>{content}</p>
+                  <p style={{lineHeight: 1.5}}>{content}</p>
                 )}
               </li>
             ))}
-          </ul>
+          </ol>
         </dd>
       ))}
     </dl>
